@@ -121,8 +121,8 @@ jobs:
           file: ./client/Dockerfile
           push: true
           tags: |
-            karty11/backend:latest
-            karty11/backend:${{ env.IMAGE_TAG }}
+            karty11/frontend:latest
+            karty11/frontend:${{ env.IMAGE_TAG }}
 
   trivy_image_scan:
     runs-on: ubuntu-latest
